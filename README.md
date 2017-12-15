@@ -1,16 +1,16 @@
 # library
 ASP .NET code for the library
 
-The connection string used in this project is: This is the Centennial College DB Server.
+The connection string used in this project is: This is the Centennial College DB Server. See web.config
 
 <connectionStrings>
     <add name="LibCollectionOracleCenCol"
     connectionString="Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=oracle1.centennialcollege.ca)(PORT=1521)))   (CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=SQLD)));User Id=<Your_UserID>;Password=<Your_Password>;"
     providerName="Oracle.DataAccess.Client"/>
   </connectionStrings>
-  
+  
   Script for books:
-  
+  
   CREATE TABLE "COMP214F17_002_P_25"."BOOKS" 
    ("BOOK_ID" NUMBER(19,0), 
 	"NAME" VARCHAR2(50 BYTE), 
